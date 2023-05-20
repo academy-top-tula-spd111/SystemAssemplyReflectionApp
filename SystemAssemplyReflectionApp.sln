@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemAssemplyReflectionApp", "SystemAssemplyReflectionApp\SystemAssemplyReflectionApp.csproj", "{967274EF-09FA-4C53-B482-5202073914C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BEC0CB4-32D0-4345-B51A-7B5C01B5A05B} = {1BEC0CB4-32D0-4345-B51A-7B5C01B5A05B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib", "MyLib\MyLib.csproj", "{1BEC0CB4-32D0-4345-B51A-7B5C01B5A05B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{967274EF-09FA-4C53-B482-5202073914C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967274EF-09FA-4C53-B482-5202073914C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967274EF-09FA-4C53-B482-5202073914C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967274EF-09FA-4C53-B482-5202073914C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BEC0CB4-32D0-4345-B51A-7B5C01B5A05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BEC0CB4-32D0-4345-B51A-7B5C01B5A05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BEC0CB4-32D0-4345-B51A-7B5C01B5A05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BEC0CB4-32D0-4345-B51A-7B5C01B5A05B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD363EA0-FC07-42A3-ADED-920CDA7C7E24}
+	EndGlobalSection
+EndGlobal
